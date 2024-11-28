@@ -1,2 +1,4 @@
-package ui;public class Main {
+package ui;
+
+public class Main {
 }
