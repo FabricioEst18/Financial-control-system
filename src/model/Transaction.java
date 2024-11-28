@@ -7,6 +7,14 @@ public class Transaction {
     private String type;
     private String date;
 
+    public Transaction(String description, double amount, String category, String type, String date) {
+        this.description = description;
+        this.amount = amount;
+        this.category = category;
+        this.type = type;
+        this.date = date;
+    }
+
     public String getDescription() {
         return description;
     }
